@@ -21,7 +21,9 @@ export default function RootLayout({
           <nav className="bg-gray-200 text-gray-900">
             <div className="container mx-auto py-4">NavBar</div>
           </nav>
-          <main>{children}</main>
+          <main className="h-screen w-full bg-gray-100 text-gray-900">
+            {children}
+          </main>
           <footer>Footer All rights reserved</footer>
         </section>
       </body>
