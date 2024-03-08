@@ -24,7 +24,7 @@ export default function RootLayout({
           <main className="h-screen w-full bg-gray-100 text-gray-900">
             {children}
           </main>
-          <footer>Footer All rights reserved</footer>
+          <footer className="p-3">Footer All rights reserved</footer>
         </section>
       </body>
     </html>
